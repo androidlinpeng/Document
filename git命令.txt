@@ -1,54 +1,54 @@
 
 
-  ²é¿´Ô¶³Ì·ÖÖ§
+  æŸ¥çœ‹è¿œç¨‹åˆ†æ”¯
 $ git branch -a
 
 
 
-  ²é¿´±¾µØ·ÖÖ§
+  æŸ¥çœ‹æœ¬åœ°åˆ†æ”¯
 $ git branch
 
 
 
-  ´´½¨·ÖÖ§
+  åˆ›å»ºåˆ†æ”¯
 $ git branch test
 
 
 
-  °Ñ·ÖÖ§ÍÆµ½Ô¶³Ì·ÖÖ§ 
+  æŠŠåˆ†æ”¯æ¨åˆ°è¿œç¨‹åˆ†æ”¯ 
 $ git push origin test
 
 
 
-  ÇĞ»»·ÖÖ§µ½test
+  åˆ‡æ¢åˆ†æ”¯åˆ°test
 $ git checkout test
 
 
 
-  É¾³ı±¾µØ·ÖÖ§
+  åˆ é™¤æœ¬åœ°åˆ†æ”¯
 $ git branch -d branch-name  
 
 
 
-  É¾³ıÔ¶³Ì·ÖÖ§
+  åˆ é™¤è¿œç¨‹åˆ†æ”¯
 $ git branch -r -d origin/branch-name  
 $ git push origin :branch-name
 
 
 
-  gitÖĞfailed to push some refs to gitÎÊÌâ½â¾ö¼°»ù±¾Ê¹ÓÃ
+  gitä¸­failed to push some refs to gité—®é¢˜è§£å†³åŠåŸºæœ¬ä½¿ç”¨
 $ git pull --rebase origin master
 
 
 
-  ¿ËÂ¡ÏîÄ¿
+  å…‹éš†é¡¹ç›®
 $ git clone htpps:...
 
 
 
-  °æ±¾»ØÍË
+  ç‰ˆæœ¬å›é€€
 
-$ git log//²é¿´ÈÕ¼Ç
+$ git log//æŸ¥çœ‹æ—¥è®°
   commit 3628164fb26d48395383f8f31179f24e0882e1e0
   Author: Michael Liao <askxuefeng@gmail.com>
   Date:   Tue Aug 20 15:11:49 2013 +0800
@@ -65,20 +65,24 @@ $ git log//²é¿´ÈÕ¼Ç
   Author: Michael Liao <askxuefeng@gmail.com>
   Date:   Mon Aug 19 17:51:55 2013 +0800
 
-$ git reset --hard HEAD^ //»ØÍËÉÏÒ»¸ö°æ±¾ £¨ÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^£¬ÉÏÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^^£©
+$ git reset --hard HEAD^ //å›é€€ä¸Šä¸€ä¸ªç‰ˆæœ¬ ï¼ˆä¸Šä¸€ä¸ªç‰ˆæœ¬å°±æ˜¯HEAD^ï¼Œä¸Šä¸Šä¸€ä¸ªç‰ˆæœ¬å°±æ˜¯HEAD^^ï¼‰
 
-  Ö»ÒªÉÏÃæµÄÃüÁîĞĞ´°¿Ú»¹Ã»ÓĞ±»¹Øµô ÕÒµ½ÄÇ¸öappend GPLµÄcommit idÊÇ3628164...
+  åªè¦ä¸Šé¢çš„å‘½ä»¤è¡Œçª—å£è¿˜æ²¡æœ‰è¢«å…³æ‰ æ‰¾åˆ°é‚£ä¸ªappend GPLçš„commit idæ˜¯3628164...
 
-$ git reset --hard 3628164 //¾Í¿ÉÒÔ»Ö¸´»ØÍËÖ®Ç°µÄ°æ±¾
+$ git reset --hard 3628164 //å°±å¯ä»¥æ¢å¤å›é€€ä¹‹å‰çš„ç‰ˆæœ¬
 
 
 
-  ·ÖÖ§ºÏ²¢
-$ git checkout master //ÇĞ»»·ÖÖ§master
+  åˆ†æ”¯åˆå¹¶
+$ git checkout master //åˆ‡æ¢åˆ†æ”¯master
 
-$ git merge branch-name //Èç¹ûÓĞ³åÍ»£¬»áÌáÊ¾Äã£¬µ÷ÓÃgit status²é¿´³åÍ»ÎÄ¼ş¡£½â¾ö³åÍ»£¬È»ºóµ÷ÓÃgit add»ògit rm½«½â¾öºóµÄÎÄ¼şÔİ  
+$ git merge branch-name //å¦‚æœæœ‰å†²çªï¼Œä¼šæç¤ºä½ ï¼Œè°ƒç”¨git statusæŸ¥çœ‹å†²çªæ–‡ä»¶ã€‚è§£å†³å†²çªï¼Œç„¶åè°ƒç”¨git addæˆ–git rmå°†è§£å†³åçš„æ–‡ä»¶æš‚  
 
-  ´æ¡£ËùÓĞ³åÍ»½â¾öºó£¬git commit Ìá½»¸ü¸Ä¡£
+  å­˜ã€‚æ‰€æœ‰å†²çªè§£å†³åï¼Œgit commit æäº¤æ›´æ”¹ã€‚
+  
+  è§£å†³failed to push some refs to git
+$ git pull --rebase origin master
+$ git push -u origin master
 
 
 
