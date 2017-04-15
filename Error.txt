@@ -1,0 +1,4 @@
+
+  android studio Error:Unable to start the daemon process
+
+  在操作系统当前用户的.gradle文件夹下：C:\Users\Administrator\.gradle 设置gradle.properties 12行加上：org.gradle.jvmargs=-Xmx512m
