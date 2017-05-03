@@ -1,4 +1,13 @@
 
-  android studio Error:Unable to start the daemon process
+ 1、 android studio Error:Unable to start the daemon process
 
-  �ڲ���ϵͳ��ǰ�û���.gradle�ļ����£�C:\Users\Administrator\.gradle ����gradle.properties 12�м��ϣ�org.gradle.jvmargs=-Xmx512m
+  在操作系统当前用户的.gradle文件夹下：C:\Users\Administrator\.gradle 设置gradle.properties 12行加上：org.gradle.jvmargs=-Xmx512m
+  
+  
+ 2、AsyncTask执行缓慢的原因分析
+ 
+ 调用executeOnExecutor，如果使用executeOnExecutor方法，可以在外部自定义线程池，解决不能并发执行异步任务的问题。
+ 
+ 
+ 3、
+  
