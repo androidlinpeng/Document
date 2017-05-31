@@ -9,5 +9,7 @@
  调用executeOnExecutor，如果使用executeOnExecutor方法，可以在外部自定义线程池，解决不能并发执行异步任务的问题。
  
  
- 3、
+ 3、java.lang.StackOverflowError
+ 
+ android XML出现java.lang.StackOverflowError,递归调用层次太深.
   
