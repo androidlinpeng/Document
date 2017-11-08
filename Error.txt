@@ -12,4 +12,17 @@
  3、java.lang.StackOverflowError
  
  android XML出现java.lang.StackOverflowError,递归调用层次太深.
-  
+ 
+ 
+ 4、Error:Unable to start the daemon process.
+This problem might be caused by incorrect configuration of the daemon.
+For example, an unrecognized jvm option is used.
+Please refer to the user guide chapter on the daemon at https://docs.gradle.org/3.3/userguide/gradle_daemon.html
+Please read the following process output to find out more:
+-----------------------
+Error occurred during initialization of VM
+Could not reserve enough space for 1572864KB object heap
+
+解决方法：gradle版本不一样，需要在settings->Gradle->Use local gradle distribution重新指定gradle版本
+
+ 
