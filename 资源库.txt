@@ -1,47 +1,55 @@
 
-//APIÎÄµµµØÖ·
+ä¸€ ã€ Android:
 
-	1¡¢¹ÙÍøAPI£ºfile:///D:/Android/sdk/docs/reference/classes.html
+//APIæ–‡æ¡£åœ°å€
 
-	2¡¢ÖĞÎÄAPI£ºhttp://www.android-doc.com/guide/components/aidl.html
+	1ã€å®˜ç½‘APIï¼šfile:///D:/Android/sdk/docs/reference/classes.html
+
+	2ã€ä¸­æ–‡APIï¼šhttp://www.android-doc.com/guide/components/aidl.html
 
 
-//¼«¿Íµ¼º½
+//æå®¢å¯¼èˆª
 
 	http://www.jikedaohang.com/index.html
 
 
-//×ÊÔ´¿â
+//èµ„æºåº“
 
 	http://www.cnblogs.com/over140/archive/2010/10/26/1861234.html
 
-	EOEÉçÇø    ¡ª¡ª    cnmahj
+	EOEç¤¾åŒº    â€”â€”    cnmahj
 
-¡¡¡¡¡¡¡¡ÒÆ¶¯ÉçÇø   ¡ª¡ª    Å©Ãñ²®²®£¨Ôİ´ú£©
+ã€€ã€€ã€€ã€€ç§»åŠ¨ç¤¾åŒº   â€”â€”    å†œæ°‘ä¼¯ä¼¯ï¼ˆæš‚ä»£ï¼‰
 
-¡¡¡¡¡¡¡¡CMD100ÉçÇø ¡ª¡ª    jiahuibin
+ã€€ã€€ã€€ã€€CMD100ç¤¾åŒº â€”â€”    jiahuibin
 
-¡¡¡¡¡¡¡¡DevDivÉçÇø ¡ª¡ª    ·±ĞÇğ©ÔÂ
+ã€€ã€€ã€€ã€€DevDivç¤¾åŒº â€”â€”    ç¹æ˜Ÿçš“æœˆ
 
-¡¡¡¡¡¡¡¡JavaEyeÉçÇø ¡ª¡ª   Å©Ãñ²®²®£¨Ôİ´ú£©
+ã€€ã€€ã€€ã€€JavaEyeç¤¾åŒº â€”â€”   å†œæ°‘ä¼¯ä¼¯ï¼ˆæš‚ä»£ï¼‰
 
-¡¡¡¡¡¡¡¡AndroidÖĞ¹ú ¡ª¡ª   ·±ĞÇğ©ÔÂ
+ã€€ã€€ã€€ã€€Androidä¸­å›½ â€”â€”   ç¹æ˜Ÿçš“æœˆ
 
-¡¡¡¡¡¡¡¡°²×¿°ÍÊ¿¿ª·¢Íø ¡ª¡ª  ªšå{ÜRÛY 
+ã€€ã€€ã€€ã€€å®‰å“å·´å£«å¼€å‘ç½‘ â€”â€”  ç¨é†èºŒè¸„ 
 
 
-//Éî¶È¿ªÔ´¿â
+//æ·±åº¦å¼€æºåº“
 
 	http://www.open-open.com/code/tags/Android
 
 
-//Material Design×ÊÁÏÊÕ¼¯
+//Material Designèµ„æ–™æ”¶é›†
 
 	https://github.com/Luosunce/material-design-data
 
 
 
+äºŒ ã€ H5:
 
+http://www.qdfuns.com/tools.php 
+
+https://www.w3cschool.cn/ 
+
+http://www1.qdfuns.com/course.php
 
 
 
